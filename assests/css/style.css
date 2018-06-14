@@ -3,12 +3,11 @@ body{
     background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/299890/58980a738d186d75f6bccc4de2824bfa5891248d.jpg");
 }
 div{
-	background-color: white;
+	color: red;
 	margin: 10px;
 	width: 25%
 }
 div{
-	border: solid 2px antiquewhite;
 	padding: 10px;
 }
 h1, h3, span{
@@ -29,6 +28,9 @@ div.header, div.gems{
 div.header, div.instructions{
 	width: 50%;
 }
+.instructions{
+	width: 250px;
+}
 .numberToMatch, .winsAndLosses{
 	float: left;
 	width: 15%;
@@ -38,12 +40,12 @@ div.header, div.instructions{
 	width: 15%;
 	height: 60px;
 }
-.gems{
+.crystals{
 	clear: both;
 }
 .gemImage{
-	height: 60px;
-	margin: 10px;
+	height: 30px;
+
 }
 #blue{
 	color: #3092c7;
